@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #scoreboard {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+  }
+  
+  .game-button {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+  }
+  
+  #red {
+    background-color: red;
+    border-radius: 100% 0 0 0;
+  }
+  
+  #green {
+    background-color: green;
+    border-radius: 0 100% 0 0;
+  }
+  
+  #blue {
+    background-color: blue;
+    border-radius: 0 0 0 100%;
+  }
+  
+  #yellow {
+    background-color: yellow;
+    border-radius: 0 0 100% 0;
+  }
+  
+  .pressed {
+    opacity: 0.5;
+  }
+  
+  #start {
+    margin-top: 20px;
+  }
